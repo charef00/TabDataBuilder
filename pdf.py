@@ -103,10 +103,10 @@ def pdf_to_tables_png(
 
 def extract_table_html(file_path):
 
-    api_url = ("api_url")
+    api_url = ("https://y7uazej8a2lb1f83.aistudio-app.com/layout-parsing")
 
     token = (
-        "token"
+        "9dc6521df5788f7f3973243e58cc7bcbb028e406"
     )
 
     with open(
