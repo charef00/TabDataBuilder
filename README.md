@@ -114,26 +114,7 @@ model_path="yolov8x-doclaynet.pt"
 
 inside `pdf.py`.
 
-## PaddleOCR API Configuration
 
-Open:
-
-```python
-pdf.py
-```
-
-Locate:
-
-```python
-api_url = "YOUR_API_URL"
-token = "YOUR_API_TOKEN"
-```
-
-Replace with your credentials:
-
-```python
-api_url = "https://xxxxx.aistudio-app.com/layout-parsing"
-token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 ## Running the Application
