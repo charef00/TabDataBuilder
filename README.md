@@ -62,6 +62,84 @@ pip install -r requirements.txt
 
 ## Additional Requirements
 
+## Install Poppler
+
+TabDataBuilder uses **pdf2image** to convert PDF pages into images. Therefore, **Poppler** must be installed before running the application.
+
+### Windows
+
+1. Download Poppler from:
+
+   https://github.com/oschwartz10612/poppler-windows/releases
+
+2. Extract the downloaded archive.
+
+3. Locate the Poppler binary directory:
+
+```text
+poppler-25.12.0/
+└── Library/
+    └── bin/
+```
+
+4. Update the `poppler_path` parameter in `pdf.py`:
+
+```python
+poppler_path=r"poppler-25.12.0\Library\bin"
+```
+
+Alternatively, use the full absolute path:
+
+```python
+poppler_path=r"C:\poppler\Library\bin"
+```
+
+### Linux (Ubuntu/Debian)
+
+Install Poppler using:
+
+```bash
+sudo apt update
+sudo apt install poppler-utils
+```
+
+Verify installation:
+
+```bash
+pdfinfo -v
+```
+
+### macOS
+
+Install Poppler using Homebrew:
+
+```bash
+brew install poppler
+```
+
+Verify installation:
+
+```bash
+pdfinfo -v
+```
+
+### Verify Installation
+
+After installation, run:
+
+```bash
+pdfinfo -v
+```
+
+If Poppler is correctly installed, the command should display the installed version instead of returning an error.
+
+If the application reports:
+
+```text
+Unable to get page count. Is poppler installed and in PATH?
+```
+
+verify that Poppler is installed correctly and that the `poppler_path` specified in `pdf.py` points to the correct `bin` directory.
 
 
 ## YOLO Model
