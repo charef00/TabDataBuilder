@@ -62,29 +62,7 @@ pip install -r requirements.txt
 
 ## Additional Requirements
 
-### Install Poppler
 
-The software uses `pdf2image`, which requires Poppler.
-
-#### Windows
-
-Download:
-
-https://github.com/oschwartz10612/poppler-windows/releases
-
-Extract Poppler and update:
-
-```python
-poppler_path=r"poppler-25.12.0\Library\bin"
-```
-
-inside `pdf.py`.
-
-#### Linux
-
-```bash
-sudo apt install poppler-utils
-```
 
 ## YOLO Model
 
