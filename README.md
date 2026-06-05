@@ -23,7 +23,7 @@ TabDataBuilder automates the extraction of tabular data from PDF documents by co
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/TabDataBuilder.git
+git clone [https://github.com/YOUR_USERNAME/TabDataBuilder.git](https://github.com/charef00/TabDataBuilder.git)
 cd TabDataBuilder
 ```
 
