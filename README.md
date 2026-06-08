@@ -250,16 +250,16 @@ TabDataBuilder/
 Video tutorial:
 
 ```text
-https://YOUR_VIDEO_LINK
+[https://YOUR_VIDEO_LINK](https://youtu.be/_r3G2sHVyrk)
 ```
 
 ## Citation
 
 ```bibtex
-@article{charef2026tabdatabuilder,
+@article{tabdatabuilder,
   title={TabDataBuilder: A Web-Based Software for Automated Table Extraction and Interactive Dataset Construction from PDF Documents},
-  author={Charef, Ayoub},
-  journal={SoftwareX},
+  author={},
+  journal={},
   year={2026}
 }
 ```
