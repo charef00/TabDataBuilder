@@ -250,7 +250,7 @@ TabDataBuilder/
 Video tutorial:
 
 ```text
-[https://YOUR_VIDEO_LINK](https://youtu.be/_r3G2sHVyrk)
+https://youtu.be/_r3G2sHVyrk
 ```
 
 ## Citation
